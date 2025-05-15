@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="images/isihat-solution.png" type="image/x-icon">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Contact Page</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="stylesc.css" />
+</head>
+	
+	<body>
+	<nav class="navbar">
+			<div class="navbar-left">
+				<img src="images/isihat-solution.png" alt="iSIHAT SOLUTION Logo" style="height:110px;">
+				<span class="brand-name">iSIHAT SOLUTION</span>
+			</div>
+			<ul class="nav-links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="activitiess.html">Activities</a></li>
+				<li><a href="feedback.html">Feedback</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</body>
+	
+		<!-- Add this to your HTML file for the Contact section -->
+<section class="contact-section">
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <p>
+      We appreciate your interest in contacting us. Please fill out the form below with the necessary details, and we will respond to your inquiry as soon as possible. Your input is important to us, and we strive to provide the best possible service.
+    </p>
+    <div class="plain-contact-details">
+      <strong>Address:</strong> Institut Kemahiran Mara Besut, 22200 Alor Lintang, Besut, Terengganu<br>
+      <strong>Phone:</strong> 012-3456789<br>
+      <strong>Email:</strong> isihat.solution@gmail.com
+    </div> <br>
+    <form class="contact-form" id="contactForm">
+      <input type="text" placeholder="Your Name" name="name" required>
+      <input type="tel" placeholder="Phone Number" name="phone" required>
+      <input type="email" placeholder="Email" name="email" required>
+      <div class="gender-group">
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="Male" required> Male</label>
+        <label><input type="radio" name="gender" value="Female"> Female</label>
+      </div>
+      <textarea placeholder="Your Message" name="message" rows="4" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent actual form submission
+    alert('Thank you for contacting us! We will get back to you shortly.');
+    this.reset(); // Reset form fields
+  });
+</script>
+
+
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-col brand">
+      <div class="footer-logo">
+        <!-- Replace with your logo/icon if you want -->
+        <span style="font-size:2em;">🧘</span>
+        <span class="footer-brand">iSIHAT Solution</span>
+      </div>
+      <div class="footer-copy">
+        &copy; 2025 by iSIHAT Solution<br>
+        Powered and secured by IVY
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Menu</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="activitiess.html">Activities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+		<li><a href="feedback.html">Feedback</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul>
+        <li>Tel: 012-3456789</li>
+        <li>Email: isihat.solution@gmail.com</li>
+        <li>Institut Kemahiran Mara Besut,<br>
+            22200 Alor Lintang, Besut, Terengganu</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Socials</h4>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+	</body>
+
+</html>
+</head>

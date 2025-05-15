@@ -1,0 +1,65 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #F5F7FA; /* Soft Gray */
+            color: #263238; /* Dark Gray */
+        }
+        section {
+            padding: 20px;
+        }
+        h2, h3 {
+            color: #263238; /* Dark Gray */
+            margin-bottom: 10px;
+
+        }
+        #about-and-management > div {
+            margin-bottom: 20px;
+			font-family: 'Georgia', serif;
+        }
+        #management-team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .team-member {
+            width: 300px;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: #FFFFFF; /* White */
+            padding: 15px;
+            border-radius: 8px; /* Added border-radius for a softer look */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Added a subtle shadow */
+        }
+        .team-member img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        a {
+            color: #1976D2; /* Primary Blue */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .disclaimer {
+            font-style: italic;
+            color: #888;
+            margin-top: 20px;
+        }
+
+        /* Add this to style the headings with a bit more visual impact */
+        h2 {
+            color: #1976D2; /* Primary Blue */
+			font-family: 'Georgia', serif;
+        }
+        h3 {
+            color: #43A047; /* Accent Green */
+        }
